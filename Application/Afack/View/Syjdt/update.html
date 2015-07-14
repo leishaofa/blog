@@ -1,0 +1,32 @@
+<include file="Public:header"/>
+<!--内容-->
+<aside>
+	 <ul>
+	 	<li><a href="{:u('Index/index')}" class="backgroundColorZi">首页</a></li>
+        <li><a href="{:u('Syjdt/jdt')}" class="backgroundColorLan">返回焦点图</a></li>
+     </ul>
+</aside>
+<div id="content">
+	<div class="main">
+	 <form action="{:u('Syjdt/bannerup',array('id'=>$bninfo['bannerid']))}" method="post" enctype="multipart/form-data">
+     	  <dl>
+          <dt><span>展示图片：</span><input type="file" name="bnimg"class="srk imgcontent"  /><img src="__ROOT__{$bninfo['banner']}" height="30"/></dt>
+          <dt><span>图片排序：</span><input type="text" name="pxnum" class="srk" value="{$bninfo['bannerpx']}" maxlength="5" onkeyup='this.value=this.value.replace(/\D/gi,"")'/></dt>
+          <dt><span>图片连接页面：</span><textarea class="srk" name="bnurl" style="height: 60px;">{$bninfo['bannerurl']}</textarea></dt>
+          <dd><input name="" type="submit" class="an" value="保存发布"></dd>
+          </dl>
+     </form>
+     </div>
+</div>
+<!--尾巴-->
+<footer>版权所有 违者必究</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>

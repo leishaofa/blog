@@ -1,0 +1,41 @@
+<include file="Public:header"/>
+<!--快捷导航-->
+<aside>
+	 <ul>
+     	<li><a href="{:u('Syjdt/jdt')}" class="backgroundColorZi">首页banner</a></li>
+        <li><a href="{:u('User/alluser')}" class="backgroundColorLv">管理员列表</a></li>
+        <li><a href="{:u('User/update')}" class="backgroundColorHui">修改密码</a></li>
+        <li><a href="{:u('Index/del_cache')}" class="backgroundColorLan">清楚缓存</a></li>
+        <!-- <if condition="$uderid eq 2"><li><a href="{:u('Index/del_cache')}" class="backgroundColorLan">清楚缓存</a></li></if>
+        <if condition="$uderid eq 3"><li><a href="{:u('Index/del_cache')}" class="backgroundColorLan">清楚缓存</a></li></if> -->
+     </ul>
+</aside>
+<!--内容-->
+<div id="content">
+	 <div class="main">
+     	  <dl>
+     	  <volist name="server_info" id="vo" key="k">
+          <dt><span>{$key}：</span><input type="text" value="{$vo}" class="srk" style="border: 0px; cursor:default;"></dt>
+         </volist>
+          <!-- <dt><span>网站名称：</span><input name="" type="text" class="srk" placeholder="请添加您的网站名称"></dt>
+          <dt><span>网站域名：</span><input name="" type="text" class="srk"></dt>
+          <dt><span>页面标题：</span><input name="" type="text" class="srk"></dt>
+          <dt><span>页面关键字：</span><input name="" type="text" class="srk"></dt>
+          <dt><span>页面描述：</span><textarea name="" cols="" rows="" class="wby"></textarea></dt>
+          <dt><span>统计代码：</span><textarea name="" cols="" rows="" class="wby"></textarea></dt>
+          <dd><input name="" type="submit" class="an" value="保存发布"></dd> -->
+          </dl>
+     </div>
+</div>
+<!--尾巴-->
+<footer>上海魔方企业形象设计有限公司</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>

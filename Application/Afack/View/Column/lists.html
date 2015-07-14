@@ -1,0 +1,107 @@
+<include file="Public:header"/>
+<!--快捷导航-->
+<aside>
+	 <ul>
+        <li><a href="{:U('Column/col_add')}" class="backgroundColorLv">添加栏目</a></li>
+        <!-- <li><a href="{:U('User/usersup')}" class="backgroundColorHui">修改密码</a></li> -->
+     </ul>
+</aside>
+<div id="content">
+<div id="title"><a href="#">首页</a><span>&gt;</span><a href="{:U('Column/lists')}">栏目</a><span>&gt;</span>头部栏目</div>
+     <div class="height_20"></div>
+     <div id="searchBox">
+     	 <div class="widget-content nopadding">
+<table class="table table-bordered table-striped">
+             <thead>
+              <tr>
+				<th width="8%">排序</th>
+			    <th width="40%">栏目名</th>
+			    <th>添加子分类</th>
+			    <th>列表</th>
+				<th>删除</th>
+				<th>编辑</th>
+              </tr>
+            </thead>
+            <tbody>
+<volist name="column" id="vo">
+               <tr>
+					<td><input type="text" name="sort[2]" value="{$vo['colpx']}" onblur="pxcli({$vo['colid']},this.value)" style="width:40px; text-align:center; margin:0 0 0 8px;"/></td>
+		 		  	<td style="text-indent:{$vo['count']*30}px;"><if condition="$vo['count'] neq 1">├─{$vo['coltt']}</if><if condition="$vo['count'] eq 1">{$vo['coltt']}</if></td>
+			 		  	<td style="text-align:center;">
+			 		  		<if condition="$vo['colqid'] eq 2"><a href="{:u('Column/colw_add',array('id'=>$vo['colid']))}"  style="margin: 0 auto;" class="btn btn-mini btn-success">添加子分类</a></if>
+						</td>
+						<td style="text-align:center;">
+			 		  		<if condition="$vo['collink'] eq 1"></if>
+			 		  		<if condition="$vo['collink'] eq 2"><a href="{:u('New/news',array('id'=>$vo['colid']))}"  style="margin: 0 auto;" class="btn btn-mini btn-success">查看列表</a></if>
+			 		  		<if condition="$vo['collink'] eq 3"><a href="{:u('Column/colw_add',array('id'=>$vo['colid']))}"  style="margin: 0 auto;" class="btn btn-mini btn-success">查看列表</a></if>
+			 		  		<if condition="$vo['collink'] eq 4"><a href="{:u('Column/colw_add',array('id'=>$vo['colid']))}"  style="margin: 0 auto;" class="btn btn-mini btn-success">查看列表</a></if>
+			 		  		<if condition="$vo['collink'] eq 5"><a href="{:u('Column/colw_add',array('id'=>$vo['colid']))}"  style="margin: 0 auto;" class="btn btn-mini btn-success">查看列表</a></if>
+			 		  		<if condition="$vo['collink'] eq 6"><a href="{:u('Column/colw_add',array('id'=>$vo['colid']))}"  style="margin: 0 auto;" class="btn btn-mini btn-success">查看列表</a></if>
+						</td>
+			 		  	<td style="text-align:center;">
+			 		  	<a href="javascript:void(0);" style="margin: 0 auto;" class="btn btn-mini btn-danger" onclick="del({$vo['colid']})">删除</a>	
+						</td>
+						<td style="text-align:center;">
+			 		  	<a <if condition="$vo['coldid'] eq null">href="{:U('Column/update_select',array('upid'=>$vo['colid']))}"</if> <if condition="$vo['coldid'] neq null">href="{:U('Column/update_select',array('upid'=>$vo['colid']))}"</if> style="margin: 0 auto;" class="btn btn-mini btn-primary">编辑</a>
+			 		  	</td>
+	 		  </tr>
+	 		  </volist>
+	 		  <tr></tr>            </tbody>
+          </table>
+		  </form>
+          </div>
+          <script type="text/javascript">
+          function pxcli(id,val)
+          {
+        	  $.ajax({
+				   type: "POST",
+				   url: "paixu",
+				   data: "id="+val+"&tb="+id,
+				   success: function(msg){
+				     var msg=eval("("+msg+")");
+				     if(msg==1){
+					     alert("修改失败");
+				     }
+				     else{
+				    	 alert("修改成功");
+					 }
+				   }
+				});  
+          }
+          
+	          function del(id){
+		          var r=confirm("是否删除? 删除后可能前台某些无法显示，请慎重");
+		          if (r==true){
+		        	  sendRequest(id);
+		            }
+		          else{
+		            alert("您已经取消删除");
+		            }
+	          }
+			function sendRequest(id){
+				$.ajax({
+					   type: "POST",
+					   dataType: "json",
+					   url: "delete",
+					   data: {di:id},
+					   success: function(msg){
+					     var msg=eval("("+msg+")");
+						if(msg==1){
+							alert("删除失败");
+					     }
+					     else if(msg==2){
+					    	 alert("该菜单下面子菜单,无法删除");
+						 }
+					     else if(msg==3){
+					    	 alert("删除成功！");
+					    	 window.location.href="lists";
+					     }
+					   }
+					}); 
+			}
+		  </script>
+        </div>
+       
+   
+</div>
+<inclide file="Public:footer"/>

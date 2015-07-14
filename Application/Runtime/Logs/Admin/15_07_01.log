@@ -1,0 +1,47 @@
+[ 2015-07-01T16:21:49+08:00 ] 127.0.0.1 /blog/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 20 行.
+NOTIC: [8] Undefined variable: reg D:\wamp\www\blog\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002276s ]
+
+[ 2015-07-01T16:21:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.021528s ]
+SQL: SELECT `qianxian`,`id` FROM `tb_users` WHERE ( userName="admin" and paddWord ="7096e860b4d09c715422362d9ac16f7d" ) LIMIT 1   [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+

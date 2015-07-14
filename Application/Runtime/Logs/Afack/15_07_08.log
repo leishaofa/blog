@@ -1,0 +1,2023 @@
+[ 2015-07-08T12:42:40+08:00 ] 127.0.0.1 /blog/afack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 20 行.
+NOTIC: [8] Undefined variable: reg D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2015-07-08T12:42:51+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.165673s ]
+SQL: SELECT `qianxian`,`id` FROM `tb_users` WHERE ( userName="admin" and paddWord ="7096e860b4d09c715422362d9ac16f7d" ) LIMIT 1   [ RunTime:0.028287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001874s ]
+
+[ 2015-07-08T12:43:01+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.046954s ]
+SQL: SELECT `qianxian`,`id` FROM `tb_users` WHERE ( userName="admin" and paddWord ="25eb3aef10f56c9725fe4e78e77e4924" ) LIMIT 1   [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2015-07-08T12:43:35+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.004235s ]
+SQL: SELECT `qianxian`,`id` FROM `tb_users` WHERE ( userName="admin123" and paddWord ="d482bc2282e1a5851922d531f45fb387" ) LIMIT 1   [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2015-07-08T12:43:45+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.004523s ]
+SQL: SELECT `qianxian`,`id` FROM `tb_users` WHERE ( userName="admin123" and paddWord ="d482bc2282e1a5851922d531f45fb387" ) LIMIT 1   [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-07-08T12:43:55+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.004953s ]
+SQL: SELECT `qianxian`,`id` FROM `tb_users` WHERE ( userName="admin123" and paddWord ="7096e860b4d09c715422362d9ac16f7d" ) LIMIT 1   [ RunTime:0.000361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-07-08T12:44:03+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.057191s ]
+SQL: SELECT `qianxian`,`id` FROM `tb_users` WHERE ( userName="admin123" and paddWord ="25eb3aef10f56c9725fe4e78e77e4924" ) LIMIT 1   [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002032s ]
+
+[ 2015-07-08T12:45:10+08:00 ] 127.0.0.1 /blog/index.php/Afack/User/alluser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.004958s ]
+SQL: SELECT * FROM `tb_users`  [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 37 行.
+NOTIC: [8] Undefined variable: newsleft D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 38 行.
+NOTIC: [8] Undefined variable: imgleft D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 39 行.
+NOTIC: [8] Undefined variable: vidioleft D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 40 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2015-07-08T12:45:13+08:00 ] 127.0.0.1 /blog/index.php/Afack/User/tz_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.030019s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.009775s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000741s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\a71a8b6b3d853f027599019221470f40.php 第 37 行.
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Afack\a71a8b6b3d853f027599019221470f40.php 第 125 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Afack\a71a8b6b3d853f027599019221470f40.php 第 128 行.
+NOTIC: [8] Undefined variable: vifi D:\wamp\www\blog\Application\Runtime\Cache\Afack\a71a8b6b3d853f027599019221470f40.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2015-07-08T12:45:13+08:00 ] 127.0.0.1 /blog/index.php/Afack/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002195s ]
+
+[ 2015-07-08T12:45:28+08:00 ] 127.0.0.1 /blog/index.php/Afack/User/verify.html?0.6875814371931044
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2015-07-08T12:45:35+08:00 ] 127.0.0.1 /blog/index.php/Afack/User/tj_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.004533s ]
+SQL: SELECT * FROM `tb_users` WHERE ( userName ="admin" ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: INSERT INTO `tb_users` (`userName`,`paddWord`,`qianxian`,`date`) VALUES ('admin','7096e860b4d09c715422362d9ac16f7d',2,'2015-7-8 12:45:35') [ RunTime:0.034424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001963s ]
+
+[ 2015-07-08T12:45:37+08:00 ] 127.0.0.1 /blog/index.php/Afack/User/alluser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.005486s ]
+SQL: SELECT * FROM `tb_users`  [ RunTime:0.000399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 37 行.
+NOTIC: [8] Undefined variable: newsleft D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 38 行.
+NOTIC: [8] Undefined variable: imgleft D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 39 行.
+NOTIC: [8] Undefined variable: vidioleft D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 40 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\blog\Application\Runtime\Cache\Afack\2baab73de2d4e8dcc6a5e553aafc8f43.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2015-07-08T12:45:43+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/regin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined variable: users D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 19 行.
+NOTIC: [8] Undefined variable: pwds D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 20 行.
+NOTIC: [8] Undefined variable: reg D:\wamp\www\blog\Application\Runtime\Cache\Afack\16ba254f3dd0d557f734adee515d1a84.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2015-07-08T12:45:52+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `tb_users` [ RunTime:0.004461s ]
+SQL: SELECT `qianxian`,`id` FROM `tb_users` WHERE ( userName="admin" and paddWord ="7096e860b4d09c715422362d9ac16f7d" ) LIMIT 1   [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2015-07-08T12:45:53+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004915s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000477s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000234s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000212s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000478s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000237s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 37 行.
+NOTIC: [8] Undefined variable: uderid D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 53 行.
+NOTIC: [8] Undefined variable: uderid D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-07-08T12:45:58+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005134s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000474s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000197s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000189s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.062474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2015-07-08T12:46:02+08:00 ] 127.0.0.1 /blog/index.php/Afack/Xitong/shezhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004551s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000312s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000453s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `tb_xitong` [ RunTime:0.048754s ]
+SQL: SELECT * FROM `tb_xitong` WHERE ( xitongid =1 ) LIMIT 1   [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.011174s ]
+SQL: SELECT * FROM `tb_member` WHERE ( memberid =1 ) LIMIT 1   [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\7aab7f725b8fcd067fb5b9e5dcb672a7.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001654s ]
+
+[ 2015-07-08T12:46:04+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005013s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000380s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000349s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000281s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2015-07-08T12:46:06+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005007s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000308s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000190s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000238s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000228s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000193s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 37 行.
+NOTIC: [8] Undefined variable: uderid D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 53 行.
+NOTIC: [8] Undefined variable: uderid D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2015-07-08T12:46:09+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004762s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000309s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000188s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000177s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-07-08T12:47:36+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004777s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000331s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000210s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000472s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =24 ) LIMIT 1   [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-07-08T12:47:42+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_up/cid/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004580s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000369s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000420s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000241s ]
+SQL: UPDATE `tb_column` SET `coltt`='网站建设',`collink`='1',`colentt`='',`colcc`='' WHERE ( colid =24 ) [ RunTime:0.042874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+
+[ 2015-07-08T12:47:47+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.051157s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000643s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000458s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000404s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2015-07-08T12:47:54+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004968s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000411s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000197s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000178s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =25 ) LIMIT 1   [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-07-08T12:48:09+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_up/cid/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004545s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000373s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000376s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000240s ]
+SQL: UPDATE `tb_column` SET `coltt`='收藏demo',`collink`='2',`colentt`='',`colcc`='' WHERE ( colid =25 ) [ RunTime:0.001908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-07-08T12:48:11+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004583s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000357s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000212s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000250s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-07-08T12:48:19+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005661s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000352s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000209s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000202s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =26 ) LIMIT 1   [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-07-08T12:48:26+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_up/cid/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.054696s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000498s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000279s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000207s ]
+SQL: UPDATE `tb_column` SET `coltt`='新闻中心',`collink`='2',`colentt`='',`colcc`='' WHERE ( colid =26 ) [ RunTime:0.001827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2015-07-08T12:48:27+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005298s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000341s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000221s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000271s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-07-08T12:48:31+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004805s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000402s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000207s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000207s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =27 ) LIMIT 1   [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2015-07-08T12:48:41+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.010288s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000686s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000464s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000435s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2015-07-08T12:48:46+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/colw_add/id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Afack\Controller\ColumnController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\d595bda3616b62d6423fa427eafd581d.php 第 37 行.
+NOTIC: [8] Undefined variable: newsleft D:\wamp\www\blog\Application\Runtime\Cache\Afack\d595bda3616b62d6423fa427eafd581d.php 第 38 行.
+NOTIC: [8] Undefined variable: imgleft D:\wamp\www\blog\Application\Runtime\Cache\Afack\d595bda3616b62d6423fa427eafd581d.php 第 39 行.
+NOTIC: [8] Undefined variable: vidioleft D:\wamp\www\blog\Application\Runtime\Cache\Afack\d595bda3616b62d6423fa427eafd581d.php 第 40 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\d595bda3616b62d6423fa427eafd581d.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2015-07-08T12:48:58+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.054956s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000588s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000471s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000289s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2015-07-08T12:49:05+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004589s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000399s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000177s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000343s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =27 ) LIMIT 1   [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-07-08T12:49:11+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_up/cid/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004568s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000414s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000239s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000205s ]
+SQL: UPDATE `tb_column` SET `coltt`='慢生活',`collink`='2',`colentt`='',`colcc`='' WHERE ( colid =27 ) [ RunTime:0.002661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2015-07-08T12:49:12+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005095s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000410s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000183s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000187s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2015-07-08T12:49:16+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004501s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000285s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000179s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000200s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =28 ) LIMIT 1   [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2015-07-08T12:49:25+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_up/cid/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004675s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000321s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000182s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000204s ]
+SQL: UPDATE `tb_column` SET `coltt`='技术探讨',`collink`='2',`colentt`='',`colcc`='' WHERE ( colid =28 ) [ RunTime:0.001748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2015-07-08T12:49:26+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004519s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000414s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000234s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000259s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2015-07-08T12:49:36+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.006440s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000452s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000488s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000404s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =29 ) LIMIT 1   [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2015-07-08T12:49:47+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_up/cid/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.053593s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000673s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000685s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000475s ]
+SQL: UPDATE `tb_column` SET `coltt`='案例中心',`collink`='2',`colentt`='',`colcc`='' WHERE ( colid =29 ) [ RunTime:0.001814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2015-07-08T12:49:48+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004756s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000304s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000218s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000274s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2015-07-08T12:49:57+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004491s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000460s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000246s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000199s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =30 ) LIMIT 1   [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-07-08T12:50:02+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_up/cid/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.009860s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000741s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000416s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000469s ]
+SQL: UPDATE `tb_column` SET `coltt`='摄影作品',`collink`='3',`colentt`='',`colcc`='' WHERE ( colid =30 ) [ RunTime:0.002340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002205s ]
+
+[ 2015-07-08T12:50:04+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005683s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000498s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000316s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000260s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-07-08T12:50:14+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+ERR: 无法加载控制器:New
+
+[ 2015-07-08T12:51:10+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Undefined index: imgcolid D:\wamp\www\blog\Application\Afack\Controller\NewController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005609s ]
+SQL: SELECT `colid`,`coltt` FROM `tb_column` WHERE ( colid =26 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.005526s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_news` WHERE ( qfid=26 ) LIMIT 1   [ RunTime:0.043719s ]
+SQL: SELECT * FROM `tb_news` WHERE ( qfid=26 ) ORDER BY newsid desc LIMIT 0,5   [ RunTime:0.000470s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000365s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000215s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-07-08T12:51:16+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8] Undefined index: imgcolid D:\wamp\www\blog\Application\Afack\Controller\NewController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004857s ]
+SQL: SELECT `colid`,`coltt` FROM `tb_column` WHERE ( colid =25 ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.004769s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_news` WHERE ( qfid=25 ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SELECT * FROM `tb_news` WHERE ( qfid=25 ) ORDER BY newsid desc LIMIT 0,5   [ RunTime:0.000330s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000348s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000248s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2015-07-08T12:51:18+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+NOTIC: [8] Undefined index: imgcolid D:\wamp\www\blog\Application\Afack\Controller\NewController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004574s ]
+SQL: SELECT `colid`,`coltt` FROM `tb_column` WHERE ( colid =26 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.004375s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_news` WHERE ( qfid=26 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `tb_news` WHERE ( qfid=26 ) ORDER BY newsid desc LIMIT 0,5   [ RunTime:0.000337s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000309s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000186s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2015-07-08T12:51:20+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8] Undefined index: imgcolid D:\wamp\www\blog\Application\Afack\Controller\NewController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004748s ]
+SQL: SELECT `colid`,`coltt` FROM `tb_column` WHERE ( colid =25 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.004998s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_news` WHERE ( qfid=25 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT * FROM `tb_news` WHERE ( qfid=25 ) ORDER BY newsid desc LIMIT 0,5   [ RunTime:0.000250s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000335s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000193s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-07-08T12:51:24+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined index: imgcolid D:\wamp\www\blog\Application\Afack\Controller\NewController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004425s ]
+SQL: SELECT `colid`,`coltt` FROM `tb_column` WHERE ( colid =27 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.004367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_news` WHERE ( qfid=27 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `tb_news` WHERE ( qfid=27 ) ORDER BY newsid desc LIMIT 0,5   [ RunTime:0.000258s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000346s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000215s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2015-07-08T12:51:31+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.053662s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000757s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000833s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000655s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-07-08T12:51:35+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004773s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000349s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000191s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000184s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =27 ) LIMIT 1   [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 39 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2015-07-08T12:51:45+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004829s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000468s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000197s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000195s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2015-07-08T12:54:44+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/col_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005274s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000447s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000216s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\71fcde836e8806d3893cf3628fa65015.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\71fcde836e8806d3893cf3628fa65015.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\71fcde836e8806d3893cf3628fa65015.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\71fcde836e8806d3893cf3628fa65015.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\71fcde836e8806d3893cf3628fa65015.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\71fcde836e8806d3893cf3628fa65015.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\71fcde836e8806d3893cf3628fa65015.php 第 39 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\71fcde836e8806d3893cf3628fa65015.php 第 75 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\71fcde836e8806d3893cf3628fa65015.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-07-08T12:54:54+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005094s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000460s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000456s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000239s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2015-07-08T12:54:58+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Undefined index: imgcolid D:\wamp\www\blog\Application\Afack\Controller\NewController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004536s ]
+SQL: SELECT `colid`,`coltt` FROM `tb_column` WHERE ( colid =25 ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.004395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_news` WHERE ( qfid=25 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `tb_news` WHERE ( qfid=25 ) ORDER BY newsid desc LIMIT 0,5   [ RunTime:0.000302s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000359s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000274s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2015-07-08T12:55:01+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004518s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000298s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000214s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000414s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2015-07-08T12:55:04+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [8] Undefined index: imgcolid D:\wamp\www\blog\Application\Afack\Controller\NewController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004874s ]
+SQL: SELECT `colid`,`coltt` FROM `tb_column` WHERE ( colid =26 ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.004654s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_news` WHERE ( qfid=26 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT * FROM `tb_news` WHERE ( qfid=26 ) ORDER BY newsid desc LIMIT 0,5   [ RunTime:0.000335s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000348s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000219s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2015-07-08T12:55:06+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005443s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000415s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000270s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000293s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2015-07-08T12:55:11+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004547s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000374s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000193s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000247s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =24 ) LIMIT 1   [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 39 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2015-07-08T12:56:09+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004668s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000405s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000219s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000217s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2015-07-08T12:56:11+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004755s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000341s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000217s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000210s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2015-07-08T12:56:14+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004735s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000338s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000224s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000205s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =25 ) LIMIT 1   [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 39 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-07-08T12:56:18+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_up/cid/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004602s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000342s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000228s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000199s ]
+SQL: UPDATE `tb_column` SET `coltt`='收藏demo',`collink`='5',`colentt`='',`colcc`='' WHERE ( colid =25 ) [ RunTime:0.007388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-07-08T12:56:20+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004874s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000494s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000345s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000193s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2015-07-08T12:56:29+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_select/upid/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005140s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000365s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000188s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000176s ]
+SQL: SELECT `colid`,`colqid`,`colcc`,`colentt`,`coltt`,`collink` FROM `tb_column` WHERE ( colid =27 ) LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 39 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 73 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\blog\Application\Runtime\Cache\Afack\3e9b825b08d2085275f6b57a187f6b6e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2015-07-08T12:56:35+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/update_up/cid/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004885s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000402s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000245s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000219s ]
+SQL: UPDATE `tb_column` SET `coltt`='慢生活',`collink`='5',`colentt`='',`colcc`='' WHERE ( colid =27 ) [ RunTime:0.002713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2015-07-08T12:56:36+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004725s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000387s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000197s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000186s ]
+SQL: SELECT `colid`,`coldid`,`colpx`,`colqid`,`collink`,`coltt` FROM `tb_column` ORDER BY coldid asc  [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\ac6c4858f4d4d3b395b0c71a76c42e42.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-07-08T12:57:02+08:00 ] 127.0.0.1 /blog/index.php/Afack/Column/colw_add/id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Afack\Controller\ColumnController.class.php 第 49 行.
+ERR: 模板不存在:./Application/Afack/View/Column/addwcolumn.html
+
+[ 2015-07-08T15:11:08+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010705s ]
+NOTIC: [8] Undefined index: imgcolid D:\wamp\www\blog\Application\Afack\Controller\NewController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.037410s ]
+SQL: SELECT `colid`,`coltt` FROM `tb_column` WHERE ( colid =26 ) LIMIT 1   [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.010616s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_news` WHERE ( qfid=26 ) LIMIT 1   [ RunTime:0.000704s ]
+SQL: SELECT * FROM `tb_news` WHERE ( qfid=26 ) ORDER BY newsid desc LIMIT 0,5   [ RunTime:0.001037s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000709s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000721s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009818s ]
+
+[ 2015-07-08T15:11:10+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/thisadd/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.005210s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000521s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000428s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2015-07-08T15:15:29+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/thisadd/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012993s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004900s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000440s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000229s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.242161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.242429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032707s ]
+
+[ 2015-07-08T15:15:48+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/add/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002303s ]
+
+[ 2015-07-08T15:16:24+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/add/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.008282s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000630s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000428s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.006244s ]
+SQL: INSERT INTO `tb_news` (`newstt`,`date`,`newsgs`,`newscc`,`qfid`,`pxid`,`tjid`,`newimg`,`colduiid`) VALUES ('AAAAA','2015-7-8','AAAAA','SFARGDFJGFGH','26','','1','/Public/Uploads/2015-07-08/559cce485c44f.png',5) [ RunTime:0.002462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2015-07-08T15:16:26+08:00 ] 127.0.0.1 /blog/index.php/Afack/New/news/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [8] Undefined index: imgcolid D:\wamp\www\blog\Application\Afack\Controller\NewController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004567s ]
+SQL: SELECT `colid`,`coltt` FROM `tb_column` WHERE ( colid =26 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.004773s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_news` WHERE ( qfid=26 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT * FROM `tb_news` WHERE ( qfid=26 ) ORDER BY newsid desc LIMIT 0,5   [ RunTime:0.000873s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000647s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000712s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2015-07-08T15:19:49+08:00 ] 127.0.0.1 /blog/index.php/Afack/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `tb_column` [ RunTime:0.004674s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000440s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000219s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000232s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =2 )  [ RunTime:0.000204s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =3 )  [ RunTime:0.000193s ]
+SQL: SELECT `colid`,`colqid`,`coltt` FROM `tb_column` WHERE ( collink =4 )  [ RunTime:0.000198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 37 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 38 行.
+NOTIC: [8] Undefined variable: currrt D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 39 行.
+NOTIC: [8] Undefined variable: uderid D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 53 行.
+NOTIC: [8] Undefined variable: uderid D:\wamp\www\blog\Application\Runtime\Cache\Afack\449db6887c6a09e8f36b447acce29d4d.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2015-07-08T15:19:51+08:00 ] 127.0.0.1 /blog/index.php/Afack/Syjdt/jdt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+ERR: 无法加载控制器:Syjdt
+

@@ -1,0 +1,137 @@
+<include file="Public:header"/>
+<!--快捷导航-->
+<style> 
+*{ margin:0; padding:0; list-style:none;} 
+#boxNews{background:#f3f3f3 url(img/user_bg.gif);}
+#boxNews strong{color:#696;} 
+#boxNews.dyn li ul{ display:none;} 
+#boxNews.dyn li ul.show{ display:block;} 
+#boxNews.dyn li{padding-left:15px;}
+#boxNews span{color:#666600;font-size:12px;text-decoration:none; line-height:40px; font-weight:bold; line-height:40px; height:40px; display:block;} 
+#boxNews.dyn li.parent{background:url(__ROOT__/Public/admin/images/user_jt.gif) 5px 16px no-repeat;} 
+#boxNews.dyn li.open{background:url(__ROOT__/Public/admin/images/user_jt.gif) 5px -30px no-repeat;} 
+.parent b{position:relative;}
+  #content  dl{ height: 30px; clear: both; background:#e8e8e8; line-height:30px;  margin-top:10px; position: relative;}
+ #content  dd{ height:30px; float:left; line-height:30px; color:#000; font-weight:bold;  font-size:14px;}
+dl dt{ float: right;}
+.wrap{ margin-left:20px; font-size:12px;  transition:0.25s ease-out; -webkit-transition:0.25s ease-out; }
+.wrap a{background:#FC0; border-radius:50px; color: #FFF; cursor: pointer; display: block;  font-family: Courier New; font-size: 25px;  font-weight: bold; width: 30px;  height: 30px; line-height: 35px;text-align: center; text-shadow: 0 -4px;}
+.caidan{padding:0px; display:none;   background:#FC0; transition:0.2s ease-out; -webkit-transition:0.2s ease-out; position: absolute; top:0px; right:30px;}
+.caidan a{background: #FC0; float: left; margin:0px 5px 0 5px; font-size:14px; overflow:hidden; text-shadow:none; float: left;}
+.caidan a:hover{background: #cdc108; border-radius:6px; color:#fff;}
+.cdclick{ display: block; }
+</style>
+<aside>
+	 <ul>
+        <li><a href="{:U('Column/lists')}" class="backgroundColorLv">头部栏目</a></li>
+         <li><a href="{:U('Column/wlists')}" class="backgroundColorZi">尾部栏目</a></li>
+         <li><a href="{:U('Column/flists')}" class="backgroundColorLan">梦想分类</a></li>
+        <!-- <li><a href="{:U('User/usersup')}" class="backgroundColorHui">修改密码</a></li> -->
+     </ul>
+</aside>
+<div id="content">
+<div id="title"><a href="#">首页</a><span>&gt;</span>首页头部焦点图</div>
+     <div class="height_20"></div>
+     <div id="searchBox">
+     	  <a style="background: none repeat scroll 0 0 #66cdaa; width: 100px;" href="{:U('Column/colf_add')}">添加总分类</a>
+     
+<!-- <volist name="column" id="vo">
+	<dl style=" text-indent:">
+         <dd style="padding-left:{$vo['count']*20 }px;">{$vo['coltt']}</dd>
+         <dt>
+		    <div class='wrap'>
+		    	<a id="aaaa">=</a>
+		    <div class="caidan">
+		    	<a href="{:U('Column/zicol',array('id'=>$vo['colid']))}">添加子分类</a>
+		        <a href="{:u('Column/update_select',array('upid'=>$vo['colid']))}">编辑</a>
+		        <a href="#" style=" color: #e8e8e8;">删除</a>
+		    </div>
+		  </dt>
+   </dl>
+</volist> -->
+          <div class="widget-content nopadding">
+<table class="table table-bordered table-striped">
+             <thead>
+              <tr>
+				<th width="8%">排序</th>
+			    <th width="40%">栏目名</th>
+			    <th>添加子分类</th>
+				<th>删除</th>
+				<th>编辑</th>
+              </tr>
+            </thead>
+            <tbody>
+<volist name="column" id="vo">
+               <tr>
+					<td><input type="text" name="sort[2]" value="{$vo['colpx']}" onblur="pxcli({$vo['colid']},this.value)" style="width:40px; text-align:center; margin:0 0 0 8px;"/></td>
+		 		  	<td style="text-indent:{$vo['count']*30}px;"><if condition="$vo['count'] neq 1">├─{$vo['coltt']}</if><if condition="$vo['count'] eq 1">{$vo['coltt']}</if></td>
+			 		  	<td style="text-align:center;">
+			 		  	<a href="{:U('Column/zicol',array('id'=>$vo['colid']))}" style="margin: 0 auto;" class="btn btn-mini btn-success">添加</a>	
+						</td>
+			 		  	<td style="text-align:center;">
+			 		  	<a href="javascript:void(0);" style="margin: 0 auto;" class="btn btn-mini btn-danger" onclick="del({$vo['colid']})">删除</a>	
+						</td>
+						<td style="text-align:center;">
+			 		  	<a href="{:U('Column/update_select',array('upid'=>$vo['colid']))}" style="margin: 0 auto;" class="btn btn-mini btn-primary">编辑</a>
+			 		  	</td>
+	 		  </tr>
+	 		  </volist>
+	 		  <tr></tr>            </tbody>
+          </table>
+		  </form>
+          </div>
+          <script type="text/javascript">
+          function pxcli(id,val)
+          {
+        	  $.ajax({
+				   type: "POST",
+				   url: "paixu",
+				   data: "id="+val+"&tb="+id,
+				   success: function(msg){
+				     var msg=eval("("+msg+")");
+				     if(msg==1){
+					     alert("修改失败");
+				     }
+				     else{
+				    	 alert("修改成功");
+					 }
+				   }
+				});  
+          }
+          
+	          function del(id){
+		          var r=confirm("是否删除? 删除后可能前台某些无法显示，请慎重");
+		          if (r==true){
+		        	  sendRequest(id);
+		            }
+		          else{
+		            alert("您已经取消删除");
+		            }
+	          }
+			function sendRequest(id){
+				$.ajax({
+					   type: "POST",
+					   dataType: "json",
+					   url: "delete",
+					   data: {di:id},
+					   success: function(msg){
+					     var msg=eval("("+msg+")");
+						if(msg==1){
+							alert("删除失败");
+					     }
+					     else if(msg==2){
+					    	 alert("该菜单下面子菜单,无法删除");
+						 }
+					     else if(msg==3){
+					    	 alert("删除成功！");
+					    	 window.location.href="flists";
+					     }
+					   }
+					}); 
+			}
+		  </script>
+        </div>
+       
+   
+</div>
+<inclide file="Public:footer"/>

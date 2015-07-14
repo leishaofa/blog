@@ -1,0 +1,67 @@
+<include file="Public:header"/>
+<aside>
+	 <ul>
+     	<li><a href="{:u('Column/lists')}" class="backgroundColorZi">查看添加栏目</a></li>
+     </ul>
+</aside>
+<script charset="utf-8" type="text/javascript" src="__ROOT__/Public/kindeditor/kindeditor.js"></script>
+<script charset="utf-8" type="text/javascript" src="__ROOT__/Public/kindeditor/lang/zh_CN.js"></script>
+<script type="text/javascript">
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editors',{
+                	themeType: 'simple',
+                	resizeType: 1,
+                	uploadJson: '__ROOT__/Public/kindeditor/php/upload_json.php',
+                	fileManagerJson: '__ROOT__/Public/kindeditor/php/file_manager_json.php',
+                	allowFileManager: true,
+                	afterBlur: function(){this.sync();}
+                });
+        })
+</script>
+<!--内容-->
+<div id="content">
+<div id="title"><a href="#">首页</a><span>&gt;</span>栏目</div>
+     <div class="height_20"></div>
+     <!-- <div id="searchBox">
+     	  <a style="background: none repeat scroll 0 0 #66cdaa;" href="{:u('Column/col_add')}">添加</a>
+     </div> -->
+	 <div class="main">
+     	  <dl>
+     	  <form action="{:U('Column/add_columt')}" method="post" enctype="multipart/form-data"> 
+          <dt><span>栏目标题：</span><input name="columntitle" type="text" class="srk" placeholder="文章名称必须添加！"><b style="color: red;">{$title}</b></dt>
+          <dt><span>新闻标题：</span><input name="columnentitle" type="text" class="srk" placeholder="文章名称必须添加！"><b style="color: red;">{$title}</b></dt>
+          <dt><span>栏目类别</span><select name="leibie">
+          <option value="1">内容栏目</option>
+          <option value="2">新闻栏目</option>
+          <option value="5">抓取栏目</option>
+          <option value="3">图片栏目</option>
+          <option value="4">视频栏目</option>
+          </select></dt>
+          <dt><span>栏目内容：</span>
+	          <div class="editorcontent">
+	          		<textarea name="content" id="editors" cols="" rows="" style="width:100%; height: 400px;" class="wby"></textarea>
+	          </div>
+          </dt>
+          <dd><input name="" type="submit" class="an" value="保存发布"></dd>
+          </form>
+          </dl>
+     </div>
+</div>
+<!--尾巴-->
+<footer>武汉微佰创网络科技有限公司</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+	$('#edimg').click(function(){
+		$(this).parent().find('.editorcontent').toggleClass('editorcontents'); 
+  	});
+	$('#img').click(function(){
+		$(this).parent().find('.editorcontent').removeClass('editorcontents'); 
+  	});
+})
+</script>
+</body>
+</html>
