@@ -1,0 +1,148 @@
+<include file="Public:header"/>
+<aside>
+	 <ul>
+	 	<li><a href="{:u('Index/index')}" class="backgroundColorZi">返回首页</a></li>
+        <li><a href="{:u('Img/imglist',array('id'=>$currrt))}" class="backgroundColorLan">添加</a></li>
+     </ul>
+</aside>
+<script src="__ROOT__/Public/admin/js/jquery.min.js" type="text/javascript"></script>
+<script src="__ROOT__/Public/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Public/uploadify/uploadify.css">
+<style type="text/css">
+body {
+	font: 13px Arial, Helvetica, Sans-serif;
+}
+</style>
+<!--内容-->
+<div id="content">
+	 <div id="title"><a href="#">首页</a><span>&gt;</span><a href="#">首页焦点图</a></div>
+     <div class="height_20"></div>
+     <div id="searchBox">
+     </div>
+     <form action="{:U('Img/addimg',array('id'=>$currrt))}" method="post">
+	    <div id="queue"></div>
+		<input id="file_upload" name="file_upload" type="file" multiple="true">
+		<input type="text" name="username" required="required" placeholder="相册名必须添加" width="50%" height="30">
+		<div id="imgsrc" style="overflow: hidden;">
+			
+		</div>
+		<div id="image" >
+		</div>
+		<input type="submit" value="提交" style="display: block;"/>
+	</form>
+	
+</div>
+<!--尾巴-->
+<footer>版权所有 违者必究</footer>
+<script type="text/javascript" src="__ROOT__/Public/admin/js/jquery.form.js"></script>
+
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+		
+		/*  $(function() {
+			 $('#file_upload').uploadify({
+				'formData'     : {
+					'timestamp' : '<?php echo $timestamp;?>',
+					'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
+				},
+				'removeTimeout' : 6000,//文件队列上传完成1秒后删除
+		        'swf'      : '__ROOT__/Public/uploadify/uploadify.swf',
+		        'uploader' : '__ROOT__/Public/uploadify/uploadify.php',
+		        'method'   : 'post',//方法，服务端可以用$_POST数组获取数据
+				'buttonText' : '选择图片',//设置按钮文本
+		        'multi'    : true,//允许同时上传多张图片
+		        'uploadLimit' : 10,//一次最多只允许上传10张图片
+		        'fileTypeDesc' : 'Image Files',//只允许上传图像
+		        'fileTypeExts' : '*.gif; *.jpg; *.png',//限制允许上传的图片后缀
+		        'fileSizeLimit' : '20000KB',//限制上传的图片不得超过200KB 
+		        
+		        
+			}); 
+		});
+		 */
+		 <?php $timestamp = time();?>
+		  $(function() {
+		   $('#file_upload').uploadify({
+		    
+		    //上传文件时post的的数据
+		    'formData'     : {
+		     'timestamp' : '<?php echo $timestamp;?>',
+		     'token'     : '<?php echo md5('unique_salt' . $timestamp);?>',
+		     'id'  : 1
+		    },
+		    'swf'      : '__ROOT__/Public/uploadify//uploadify.swf',
+		    'uploader' : '__ROOT__/Public/uploadify/uploadify.php',
+		    'onInit'   : function(index){
+		     //alert('队列ID:'+index.settings.queueID);
+		    },
+		    'method'   : 'post', //设置上传的方法get 和 post
+		    //'auto'    : false, //是否自动上传 false关闭自动上传 true 选中文件后自动上传
+		    //'buttonClass' : 'myclass', //自定义按钮的样式
+		    //'buttonImage' : '按钮图片',
+		    'buttonText'  : '选择文件', //按钮显示的字迹
+		    //'fileObjName' : 'mytest'  //后台接收的时候就是$_FILES['mytest']
+		    'checkExisting' : '__ROOT__/Public/uploadify/check-exists.php', //检查文件是否已经存在 返回0或者1
+		    'fileSizeLimit' : '600KB', //上传文件大小的限制
+		    'fileTypeDesc'  : '你需要一些文件',//可选择的文件的描述
+		    'fileTypeExts'  : '*.gif; *.jpg; *.png', //文件的允许上传的类型
+		    
+		    //上传的时候发生的事件
+		    'onUploadStart' : function(file){
+		     // alert('开始上传了'); 
+		      },
+		    'uploadLimit'   : 20, //设置最大上传文件的数量
+		    
+		    //文件上传成功的时候
+		    'onUploadSuccess' : function(file, data, response) {
+		    	$("#image").append('<img width="100" height="100" src="__ROOT__/Uploads/'+data+'">');
+				$("#image").append('<input type="checkbox" name="imgname[]" checked="checked" value='+data+'>');
+				//$("#image").append('<span>'+second+'->'+jqText+'</span>'); 
+               // $("#upload_org_code_img").show();
+		     },
+		     //
+		       'onUploadError' : function(file, errorCode, errorMsg, errorString) {
+		     alert(file.name + '上传失败原因:' + errorString);
+		     },
+		     //'itemTemplate' : '追加到每个上传节点的html',
+		     'height'  : 40, //设置高度 button
+		     'width'  : 60, //设置宽度
+		     'onDisable' : function(){
+		      alert('您禁止上传');
+		     },
+		     'onEnable'  : function(){
+		      alert('您可以继续上传了');
+		     },
+		     //当文件选中的时候
+		     'onSelect'  : function(file){
+		     }
+		   });
+		  });
+		  
+		 //一些常用的事件
+		 //$('#file_upload').uploadify('upload','*');    //用javascript 上传的方法
+		 //$('#file_upload').uploadify('stop','*');      //用javascript 停止上传的方法
+		 //$('#file_upload').uploadify('disable','*');   //用javascript 禁止上传的方法
+		 //$('#file_upload').uploadify('settings','buttonText',"设置上传按钮");   //设置一些属性
+		 //更多的请到官方网站www.uploadify.com/documentation/看讲解谢谢
+		 </script>
+		<?php
+		/*
+		 *检查文件是否存在的check-exists.php
+		 */
+		/*
+		$targetFolder = '/uploads';
+		if (file_exists($_SERVER['DOCUMENT_ROOT'] . $targetFolder . '/' . $_POST['filename'])) {
+		 echo 1;
+		} else {
+		 echo 0;
+		}
+		*/
+		?>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<include file="Public:header"/>
+<!--快捷导航-->
+<!--内容-->
+<div id="content">
+	 <div id="title"><a href="#">首页</a><span>&gt;</span>网站留言</div>
+     <div class="height_20"></div>
+     <div class="newsList">
+     	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="60" class="none">#</th>
+              <th align="left">用户称呼</th>
+              <th width="85" class="none">留言课程</th>
+              <th width="85" class="none">电话</th>
+              <th width="85" class="none">邮箱</th>
+              <th width="60" align="center">操作</th>
+            </tr>
+            <volist name="listact" id="vo">
+            <tr>
+              <td align="center" class="none">{$vo['contactid']}</td>
+              <td style="max-width: 400px; overflow: hidden;">{$vo['contuser']}</td>
+              <td><a href="#">{$vo['qfid']}</a></td>
+              <td align="center" class="none">
+	             {$vo['contpone']}
+              </td>
+              <td>{$vo['condemail']}</td>
+              <td>
+              	<dl>
+              		
+                    <dd><a href="{:u('Contact/delcont',array('id'=>$vo['contactid']))}" title="删除"></a></dd>
+                    <dt><a href="{:u('Contact/deils',array('id'=>$vo['contactid']))}" title="查看详情"></a></dt>
+                </dl>
+              </td>
+            </tr>
+            </volist>
+          </table>
+     </div>
+     <div id="page">{$page}</div>
+</div>
+<!--尾巴-->
+<footer>上海魔方企业形象设计有限公司</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>

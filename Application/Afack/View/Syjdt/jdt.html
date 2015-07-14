@@ -1,0 +1,53 @@
+<include file="Public:header"/>
+<aside>
+	 <ul>
+	 	<li><a href="{:u('Index/index')}" class="backgroundColorZi">返回首页</a></li>
+        <li><a href="{:u('Syjdt/jdtadd')}" class="backgroundColorLan">添加</a></li>
+     </ul>
+</aside>
+<!--内容-->
+<div id="content">
+	 <div id="title"><a href="#">首页</a><span>&gt;</span><a href="#">首页焦点图</a></div>
+     <div class="height_20"></div>
+     <div id="searchBox">
+     </div>
+     <div class="newsList">
+     	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+     	  
+            <tr>
+              <th width="60" class="none">#</th>
+              <th align="left">缩略图</th>
+              <th width="60" class="none">链接地址</th>
+              <th width="60" class="none">排序序号</th>
+              <th width="60" align="center">操作</th>
+            </tr>
+            <volist name="jdlbt" id="vo">
+            <tr>
+              <td align="center" class="none">{$vo.bannerid}</td>
+              <td><a ><img src="__ROOT__{$vo.banner}" style="height:40px;"/></a></td>
+              <td style="display:block; width:33em; margin:0px; float:right; height:44px; word-break:keep-all; white-space:nowrap; font-weight:normal; overflow:hidden; text-overflow:ellipsis;">{$vo.bannerurl}</td>
+              <td align="center" class="none">{$vo.bannerpx}</td>
+              <td>
+              	<dl>
+              		<dt><a href="{:u('Syjdt/update',array('id'=>$vo["bannerid"]))}" title="修改"></a></dt>
+                    <dd><a href="{:u('Syjdt/del',array('id'=>$vo["bannerid"]))}" title="删除"></a></dd>
+                </dl>
+              </td>
+            </tr>
+            </volist>
+          </table>
+     </div>
+     <div id="page">{$page}</div>
+</div>
+<!--尾巴-->
+<footer>版权所有 违者必究</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<include file="Public:header"/>
+<aside>
+	 <ul>
+     	<li><a href="{:u('Column/lists')}" class="backgroundColorZi">查看添加</a></li>
+     </ul>
+</aside>
+<script charset="utf-8" type="text/javascript" src="__ROOT__/Public/kindeditor/kindeditor.js"></script>
+<script charset="utf-8" type="text/javascript" src="__ROOT__/Public/kindeditor/lang/zh_CN.js"></script>
+<script type="text/javascript">
+KindEditor.options.filterMode = false;
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editors',{
+                	themeType: 'simple',
+                	resizeType: 1,
+                	uploadJson: '__ROOT__/Public/kindeditor/php/upload_json.php',
+                	fileManagerJson: '__ROOT__/Public/kindeditor/php/file_manager_json.php',
+                	allowFileManager: true,
+                	afterBlur: function(){this.sync();}
+                });
+        })
+        
+</script>
+
+<!--内容-->
+<div id="content">
+	 <div class="main">
+     	  <dl>
+     	  <form action="{:U('Column/update_up',array('cid'=>$update['colid']))}" method="post" enctype="multipart/form-data"> 
+          <dt><span>中文标题：</span><input name="columntitle" type="text" value="{$update['coltt']}" class="srk" placeholder="文章名称必须添加！"><b style="color: red;">{$title}</b></dt>
+          <dt><span>英文标题：</span><input name="columnentitle" type="text" value="{$update['colentt']}" class="srk" placeholder="文章名称必须添加！"><b style="color: red;">{$title}</b></dt>
+          <dt><span>栏目类别</span><select class="srk" name="leibie">
+          <option value="1">内容栏目</option>
+          <option value="2">新闻栏目</option>
+          <option value="5">抓取栏目</option>
+          <option value="3">图片栏目</option>
+          <option value="4">视频栏目</option>
+          </select></dt>
+          <dt><span>修改内容：</span>
+          		<textarea name="bannnercontent" id="editors" cols="" rows="" style="width:100%;" class="wby">{$update['colcc']}</textarea>
+          </dt>
+          <dd><input name="" type="submit" class="an" value="保存发布"></dd>
+          </form>
+          </dl>
+     </div>
+</div>
+<!--尾巴-->
+<footer>上海魔方企业形象设计有限公司</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<include file="Public:header"/>
+<!--内容-->
+  <script type="text/javascript" src="__ROOT__/Public/Admin/js/manhuaDate.js"></script>
+<script charset="utf-8" src="__ROOT__/Public/kindeditor/kindeditor.js"></script>
+<script charset="utf-8" src="__ROOT__/Public/kindeditor/lang/zh_CN.js"></script>
+<script>
+    /*     KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        }); */
+        KindEditor.options.filterMode = false;
+        KindEditor.ready(function(K) {
+            window.editor = K.create('#editors',{
+            	themeType: 'simple',
+            	resizeType: 1,
+            	uploadJson: '__ROOT__/Public/kindeditor/php/upload_json.php',
+            	fileManagerJson: '__ROOT__/Public/kindeditor/php/file_manager_json.php',
+            	allowFileManager: true,
+            	afterBlur: function(){this.sync();}
+            });
+    })
+    $(function (){
+     	$("input.mh_date").manhuaDate({					       
+     		Event : "click",//可选				       
+     		Left : 0,//弹出时间停靠的左边位置
+     		Top : -16,//弹出时间停靠的顶部边位置
+     		fuhao : "-",//日期连接符默认为-
+     		isTime : false,//是否开启时间值默认为false
+     		beginY : 2013,//年份的开始默认为1994
+     		endY :2030,//年份的结束默认为2049
+     	});
+     	
+     });
+</script>
+<aside>
+	 <ul>
+	 	<li><a href="{:u('Column/lists')}" class="backgroundColorZi">返回栏目</a></li>
+        <li><a href="{:u('Shipin/jiaodian',array('id'=>$spinfo['qfid']))}" class="backgroundColorLan">返回{$Think.session.vidiocoltt}</a></li>
+     </ul>
+</aside>
+<div id="content">
+	 <div class="main">
+	 <form action="{:u('Shipin/selectupdate',array('id'=>$spinfo['vid']))}" method="post" enctype="multipart/form-data">
+     	  <dl>
+          <dt><span>标题：</span><input name="vidiott" type="text" value="{$spinfo['vidiott']}" class="imgcontent srk" placeholder="标题名称必须添加！"></dt>
+          <dt><span>发布公司名：</span><input name="vidiogs" type="text" value="{$spinfo['vidiogs']}" class="imgcontent srk" placeholder="文章名称必须添加！"></dt>
+          <dt><span>发布时间：</span><input type="text" name="date" value="{$spinfo['date']}" class="mh_date srk" readonly="true" /></dt>
+          <dt><span>视频展示图片：</span><input class="imgcontent srk" type="file" name="imgfile" /><img src="__ROOT__{$spinfo['vidioimg']}" height="40" /></dt>
+          <dt><span>视频排序：</span>
+          		<input name="paixuid" type="text" size="14" value="{$spinfo['pxid']}" class="imgcontent srk" maxlength="5" onkeyup='this.value=this.value.replace(/\D/gi,"")'>
+          </dt>
+           <dt><span>是否推荐：</span><input name="vidiotj" type="radio" value="1" <if condition="$spinfo['tjid'] eq 1"> checked</if>>不推荐<input name="vidiotj" value="2" type="radio" <if condition="$spinfo['tjid'] eq 2"> checked</if>>推荐</dt>
+          <dt><span>视频内容：</span>
+          			<textarea id="editors" name="content" style="width:78%;height:300px;">{$spinfo['vidiocc']}</textarea>
+			</dt>
+          <dd><input name="" type="submit" class="an" value="保存发布"></dd>
+          </dl>
+     </form>
+     </div>
+</div>
+<!--尾巴-->
+<footer>武汉微百创网络科技有限公司</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>

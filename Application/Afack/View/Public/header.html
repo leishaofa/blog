@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=yes">
+<link type="text/css" rel="stylesheet" href="__ROOT__/Public/admin/css/base.css" />
+<link rel="icon" href="__ROOT__/Public/app/images/list_logo.png" type="img/x-icon"/>
+<title></title>
+<meta name="keywords" content="sunemotor" />
+<meta name="description" content="sunemotor" />
+<script src="__ROOT__/Public/admin/js/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--头部-->
+<header>
+	<div class="nav">
+    	 <ul>
+         <li></li>
+         <li></li>
+         <li></li>
+         </ul>
+    </div>
+</header>
+<!--左侧导航-->
+<nav>
+	<div class="navTop">
+    	 <dl><img src="__ROOT__/Public/Admin/images/avatar2.jpg" width="120" height="120"></dl>
+         <ul>
+         	<li class="navTop_01"><a href="{:u('Index/index')}" title="返回首页">返回首页</a></li>
+           <!--  <li class="navTop_02"><a href="index.html" title="网站设置">网站设置</a></li> -->
+            <li class="navTop_03"><a href="{:u('Index/regin')}" title="退出后台">退出后台</a></li>
+         </ul>
+    </div>
+    <div class="navList">
+    	 <ul>
+         <li><a href="{:u('Column/lists')}" <if condition="$currrt eq 3">class="this"</if>>栏目列表</a></li>
+            <volist name="newsleft" id="leftnew">
+            <li><a href="{:u('New/news',array('id'=>$leftnew['colid']))}" <if condition="$currrt eq $leftnew['colid']">class="this"</if>>{$leftnew['coltt']}</a></li>
+            </volist>
+            <volist name="imgleft" id="leftimg">
+            <li><a href="{:u('Img/imglist',array('id'=>$leftimg['colid']))}" <if condition="$currrt eq $leftimg['colid']">class="this"</if>>{$leftimg['coltt']}</a></li>
+            </volist>
+            <volist name="vidioleft" id="leftvidio">
+            <li><a href="{:u('Shipin/jiaodian',array('id'=>$leftvidio['colid']))}" <if condition="$currrt eq $leftvidio['colid']">class="this"</if>>{$leftvidio['coltt']}</a></li>
+            </volist>
+         <!-- <li><a href="">用户管理</a></li> -->
+         <li><a href="{:u('Xitong/shezhi')}">系统设置</a></li>
+         </ul>
+    </div>
+</nav>

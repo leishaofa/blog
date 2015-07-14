@@ -1,0 +1,120 @@
+<include file="Public:header"/>
+<aside>
+	 <ul>
+        <li><a href="{:u('User/alluser')}" class="backgroundColorLan">返回查看</a></li>
+     </ul>
+</aside>
+<script>
+function ckeck_verify($code,$id='')
+{
+	$verify=new \think\verify();
+	return $verify->check($code,$id)}
+</script>
+<script language=javascript> 
+//测试某个字符是属于哪一类
+function CharMode(iN){ 
+if (iN>=48 && iN <=57) //数字 
+return 1; 
+if (iN>=65 && iN <=90) //大写字母 
+return 2; 
+if (iN>=97 && iN <=122) //小写 
+return 4; 
+else 
+return 8;
+} 
+function bitTotal(num){ 
+modes=0; 
+for (i=0;i<4;i++){ 
+if (num & 1) modes++; 
+num>>>=1; 
+} 
+return modes; 
+} 
+function checkStrong(sPW){ 
+if (sPW.length<=4) 
+return 0;
+Modes=0; 
+for (i=0;i<sPW.length;i++){
+Modes|=CharMode(sPW.charCodeAt(i)); 
+} 
+return bitTotal(Modes); 
+}
+function pwStrength(pwd){ 
+O_color="#eeeeee"; 
+L_color="#FF0000"; 
+M_color="#FF9900"; 
+H_color="#33CC00"; 
+if (pwd==null||pwd==''){ 
+Lcolor=Mcolor=Hcolor=O_color; 
+} 
+else{ 
+S_level=checkStrong(pwd); 
+switch(S_level) { 
+case 0: 
+Lcolor=Mcolor=Hcolor=O_color; 
+case 1: 
+Lcolor=L_color; 
+Mcolor=Hcolor=O_color; 
+break; 
+case 2: 
+Lcolor=Mcolor=M_color; 
+Hcolor=O_color; 
+break; 
+default: 
+Lcolor=Mcolor=Hcolor=H_color; 
+} 
+} 
+document.getElementById("strength_L").style.background=Lcolor; 
+document.getElementById("strength_M").style.background=Mcolor; 
+document.getElementById("strength_H").style.background=Hcolor; 
+return; 
+} 
+</script>
+<!--内容-->
+<div id="content">
+<script src="__ROOT__/Public/Admin/js/login.js"></script>
+	 <div class="main">
+     	  <dl>
+     	  <form action="{:u('User/tj_add')}" method="post">
+          <dt><span>用户名：</span>
+			<input name="name" type="text" class="srk" id="userName" placeholder="用户名比须添加！" onblur="checkname()"/>
+          	<b id="uname">{$users}</b></dt>
+          <dt><span>密码：</span>
+	          <input style="float: left;" name="pwd" type="password" class="srk" id="pwd" onblur="checkpwd()"/>
+	          <b id="upwd">{$pwds}</b>
+          </dt>
+          <dt style="clear: both; padding-top: 10px;"><span>确认密码：</span>
+	          <input style="float: left;" id="pwd" name="unpwd" type="password" class="srk" onKeyUp=pwStrength(this.value)  onBlur="pwStrength(this.value)"/>
+	          <table style="float: left;" width="100" border="1" cellspacing="0" cellpadding="1" bordercolor="#cccccc" height="20">
+				 <tr align="center" bgcolor="#eeeeee">
+				    <td width="33%" style="padding:0px;" id="strength_L">弱</td>
+				    <td width="33%" style="padding:0px;" id="strength_M">中</td>
+				    <td width="33%" style="padding:0px;" id="strength_H">强</td>
+				 </tr>
+			  </table>
+	     </dt>
+	     <dt style="clear: both; padding-top: 10px;"><span>用户级别：</span>
+	          <input name="usersdengji" style="margin-right: 10px;" value="1" type="radio"srk" checked/>普通管理员(编内容)
+	          <input name="usersdengji" style="margin-right: 10px; margin-left: 10px;" value="2" type="radio"srk"/>中级管理员(除添加用户外所有)
+	          <input name="usersdengji" style="margin-right: 10px; margin-left: 10px;" value="3" type="radio"srk"/>超级管理员（后台所有权限)
+          </dt>
+          <dt><span>验证码：</span>
+	          <img src='{:u('User/verify')}' onClick="this.src=this.src+'?'+Math.random()" width="140px" height="42px" style="float: left;"/>
+	          <input style="font-size:30px; height: 42px;" type="text" name="code" class="srk srkZhong"/>{$vifi}</dt>
+          <dd style="clear: both;"><input name="" type="submit" class="an" value="保存发布"/></dd>
+          </form>
+          </dl>
+     </div>
+</div>
+<!--尾巴-->
+<footer>上海魔方企业形象设计有限公司</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>

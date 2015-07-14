@@ -1,0 +1,54 @@
+<include file="Public:header"/>
+<aside>
+	 <ul>
+	 	<li><a href="{:u('Column/lists')}" class="backgroundColorZi">返回栏目</a></li>
+        <li><a href="{:u('Syzs/kcadd')}" class="backgroundColorLan">添加课程</a></li>
+     </ul>
+</aside>
+<!--内容-->
+<div id="content">
+	 <div id="title"><a href="#">首页</a><span>&gt;</span><a href="#">课程报名</a></div>
+     <div class="height_20"></div>
+     <div id="searchBox">
+     </div>
+     <div class="newsList">
+     	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+     	  
+            <tr>
+              <th width="60" class="none">#</th>
+    
+              <th align="left">课程标题</th>
+              <th align="center" align="left">报名开始时间</th>
+              <th align="center" align="60">报名结束时间</th>
+              <th width="60" align="center">操作</th>
+            </tr>
+            <volist name="sykc" id="vo">
+            <tr>
+            <td><a href="#">{$vo.zsid}</a></td>
+            <td><a href="#">{$vo.zstt}</a></td>
+              <td align="center" class="none">{$vo.begintime}</td>
+              <td align="center" class="none">{$vo.endtime}</td>
+              <td>
+              	<dl>
+                	<dt><a href="{:u('Syzs/updatekc',array('id'=>$vo["zsid"]))}" title="编辑"></a></dt>
+                    <dd><a href="{:u('Syzs/delkc',array('did'=>$vo["zsid"]))}" title="删除"></a></dd>
+                </dl>
+              </td>
+            </tr>
+            </volist>
+          </table>
+     </div>
+     <div id="page">{$page}</div>
+</div>
+<!--尾巴-->
+<footer>上海魔方企业形象设计有限公司</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>

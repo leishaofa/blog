@@ -1,0 +1,51 @@
+<include file="Public:header"/>
+<!--快捷导航-->
+<aside>
+	 <ul>
+        <li><a href="{:u('User/tz_add')}" class="backgroundColorLan">添加用户</a></li>
+     </ul>
+</aside>
+<!--内容-->
+<div id="content">
+	 <div id="title"><a href="#">首页</a><span>&gt;</span>会员列表</div>
+     <div class="height_20"></div>
+     <div class="newsList">
+     	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="60" class="none">#</th>
+              <th align="left">注册时间</th>
+              <th width="85" class="none">用户级别</th>
+              <th width="60" align="center">操作</th>
+            </tr>
+            <volist name="all" id="vousers">
+            <tr>
+              <td align="center" class="none">{$vousers['id']}</td>
+              <td><a href="#">{$vousers['date']}</a></td>
+              <td align="center" class="none">
+	              <if condition="$vousers['qianxian'] eq 1">管理员</if>
+	              <if condition="$vousers['qianxian'] eq 2">维护管理员</if>
+	              <if condition="$vousers['qianxian'] eq 3">超级管理员</if>
+              </td>
+              <td>
+              	<dl>
+                    <dd><a href="{:u('User/delusers',array('userdelid'=>$vousers['id']))}" title="删除"></a></dd>
+                </dl>
+              </td>
+            </tr>
+            </volist>
+          </table>
+     </div>
+     <div id="page">{$page}</div>
+</div>
+<!--尾巴-->
+<footer>上海魔方企业形象设计有限公司</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>

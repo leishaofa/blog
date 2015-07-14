@@ -1,0 +1,31 @@
+<include file="Public:header"/>
+<!--快捷导航-->
+<aside>
+	 <ul>
+        <li><a href="{:u('Contact/select_list')}" class="backgroundColorLan">返回</a></li>
+     </ul>
+</aside>
+<!--内容-->
+<div id="content">
+	 <div class="main">
+     	  <dl>
+          <dt><span>用户称呼：</span><input value="{$conactdeis['contuser']}" type="text" class="srk"/></dt>
+          <dt><span>课程课程：</span><input value="{$conactdeis['contuser']}" type="text" class="srk"/></dt>
+          <dt><span>手机号：</span><input value="{$conactdeis['contpone']}" type="text" class="srk"/></dt>
+          <dt><span>邮箱：</span><input type="text" value="{$conactdeis['condemail']}"/> </dt>
+		  <dt><span>留言内容：</span><textarea cols="" rows="" class="wby">{$conactdeis['contcontent']}</textarea></dt>
+          </dl>
+     </div>
+</div>
+<!--尾巴-->
+<footer>上海魔方企业形象设计有限公司</footer>
+<script>
+$(function(){
+	$('header .nav').click(function(){
+		$('nav').slideToggle(0);
+		$('#content, aside').toggleClass('margin'); 
+  	});
+})
+</script>
+</body>
+</html>
